@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- TOP -->
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/start_button1"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:adjustViewBounds="true"
+            android:tag="0" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:focusable="true"
+                android:scaleType="matrix"
+                android:background="#FFE146" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="1"
+                android:textColor="#ffffff"
+                android:textSize="53sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/start_button2"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:focusable="true"
+            android:tag="1" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:background="#FFF064" />
+            
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="2"
+                android:textColor="#ffffff"
+                android:textSize="53sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/start_button3"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:focusable="true"
+            android:tag="2" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:background="#FFFA82" />
+            
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="3"
+                android:textColor="#ffffff"
+                android:textSize="53sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/start_button4"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:focusable="true"
+            android:tag="3" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:background="#FFFF96" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="4"
+                android:textColor="#ffffff"
+                android:textSize="53sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/start_button5"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:focusable="true"
+            android:tag="4" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:background="#bebebe" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="5"
+                android:textColor="#ffffff"
+                android:textSize="53sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/start_button6"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:adjustViewBounds="true"
+            android:focusable="true"
+            android:tag="5" >
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:background="#969696"  />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="6"
+                android:textColor="#ffffff"
+                android:textSize="53sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

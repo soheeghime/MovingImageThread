@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moving Image</string>
+    
+    <string name="mode01">MODE 01</string>
+    <string name="mode01_sub">sub text of moving image app</string>
+    
+	<string name="mode02">MODE 01</string>
+	<string name="mode02_sub">sub text of moving image app</string>
+    
+    <string name="mode03">MODE 02</string>
+    <string name="mode03_sub">sub text of moving image app</string>
+    
+    <string name="mode04">MODE 03</string>
+    <string name="mode04_sub">sub text of moving image app</string>
+    
+    <string name="mode05">MODE 04</string>
+    <string name="mode05_sub">sub text of moving image app</string>
+    
+    <string name="mode06">MODE 05</string>
+    <string name="mode06_sub">sub text of moving image app</string>
+    
+</resources>
